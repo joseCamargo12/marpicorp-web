@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarpiCorp — Inteligencia Estratégica para Tu Próximo Movimiento</title>
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dwqahfw5n/image/upload/v1755999742/solo_drcadl.png">
+    
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Enlace a tu hoja de estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header" id="main-header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo-link" aria-label="Inicio">
+                <img src="https://res.cloudinary.com/dwqahfw5n/image/upload/v1755999742/solo_drcadl.png" alt="MarpiCorp Logo" class="logo-img">
+                <span>MarpiCorp</span>
+            </a>
+            <nav class="nav-desktop">
+                <a href="#soluciones" data-lang-es="Soluciones" data-lang-en="Solutions">Soluciones</a>
+                <a href="#proceso" data-lang-es="Proceso" data-lang-en="Process">Proceso</a>
+                <a href="#casos-exito" data-lang-es="Casos de Éxito" data-lang-en="Case Studies">Casos de Éxito</a>
+                <a href="#" class="open-proposal-modal" data-lang-es="Ver Propuesta" data-lang-en="View Proposal">Ver Propuesta</a>
+            </nav>
+            <div class="header-buttons">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="es">ES</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="#contacto" class="btn btn-primary hidden-mobile" data-lang-es="Agendar Sesión" data-lang-en="Schedule Session">Agendar Sesión</a>
+                <button id="mobile-menu-button" class="mobile-menu-toggle"><i class="bi bi-list"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu">
+        <nav>
+            <a href="#soluciones" data-lang-es="Soluciones" data-lang-en="Solutions">Soluciones</a>
+            <a href="#proceso" data-lang-es="Proceso" data-lang-en="Process">Proceso</a>
+            <a href="#casos-exito" data-lang-es="Casos de Éxito" data-lang-en="Case Studies">Casos de Éxito</a>
+            <a href="#" class="open-proposal-modal" data-lang-es="Ver Propuesta" data-lang-en="View Proposal">Ver Propuesta</a>
+            <a href="#contacto" class="btn btn-primary" data-lang-es="Agendar Sesión" data-lang-en="Schedule Session">Agendar Sesión</a>
+        </nav>
+    </div>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container">
+                <img src="https://res.cloudinary.com/dwqahfw5n/image/upload/v1755999742/solo_drcadl.png" alt="Logo de MarpiCorp animado" class="hero-logo animated">
+                <h1 class="animated" data-lang-es="Inteligencia Estratégica para tu Próximo Movimiento" data-lang-en="Strategic Intelligence for Your Next Decisive Move">Inteligencia Estratégica para tu Próximo Movimiento</h1>
+                <p class="subtitle animated delay-1" data-lang-es="Te ayudamos a construir un ecosistema de IA que anticipa el futuro de tu negocio, para que puedas tomar las decisiones correctas, hoy." data-lang-en="We help you build an AI ecosystem that anticipates your business's future, so you can make the right decisions, today.">Te ayudamos a construir un ecosistema de IA que anticipa el futuro de tu negocio, para que puedas tomar las decisiones correctas, hoy.</p>
+                <a href="#contacto" class="btn btn-primary hero-cta animated delay-2" data-lang-es="Comienza tu Transformación" data-lang-en="Start Your Transformation">Comienza tu Transformación</a>
+            </div>
+        </section>
+
+        <section class="solutions" id="soluciones">
+            <div class="container">
+                <h2 class="animated" data-lang-es="Un Ecosistema de Soluciones a tu Medida" data-lang-en="A Tailored Ecosystem of Solutions">Un Ecosistema de Soluciones a tu Medida</h2>
+                <p class="section-subtitle animated delay-1" data-lang-es="No ofrecemos soluciones genéricas. Creamos un sistema que se integra perfectamente a tu operación." data-lang-en="We don't offer generic solutions. We create a system that integrates perfectly with your operation.">No ofrecemos soluciones genéricas. Creamos un sistema que se integra perfectamente a tu operación.</p>
+                <div class="solutions-layout animated delay-2">
+                    <nav class="solutions-nav">
+                        <div class="solution-selector active" data-solution="diagnostico"><div class="icon"><i class="bi bi-lightbulb"></i></div> <h4 data-lang-es="¿Dónde Empezar?" data-lang-en="Where to Start?">¿Dónde Empezar?</h4></div>
+                        <div class="solution-selector" data-solution="conversacion"><div class="icon"><i class="bi bi-chat-dots"></i></div> <h4 data-lang-es="¿Cómo Conectar?" data-lang-en="How to Connect?">¿Cómo Conectar?</h4></div>
+                        <div class="solution-selector" data-solution="orquestacion"><div class="icon"><i class="bi bi-gear-wide-connected"></i></div> <h4 data-lang-es="¿Cómo Optimizar?" data-lang-en="How to Optimize?">¿Cómo Optimizar?</h4></div>
+                        <div class="solution-selector" data-solution="analisis"><div class="icon"><i class="bi bi-graph-up-arrow"></i></div> <h4 data-lang-es="¿Cómo Anticipar?" data-lang-en="How to Anticipate?">¿Cómo Anticipar?</h4></div>
+                    </nav>
+                    <div class="solution-content-wrapper">
+                        <div id="diagnostico-content" class="solution-content active"><div class="text"><h3 data-lang-es="Diagnóstico Estratégico" data-lang-en="Strategic Diagnosis">Diagnóstico Estratégico</h3><p data-lang-es="Analizamos tus procesos para identificar oportunidades de alto impacto donde la IA genera valor real." data-lang-en="We analyze your processes to identify high-impact opportunities where AI generates real value.">Analizamos tus procesos para identificar oportunidades de alto impacto donde la IA genera valor real.</p></div><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop" alt="Diagnóstico Estratégico"></div>
+                        <div id="conversacion-content" class="solution-content"><div class="text"><h3 data-lang-es="Sistemas Conversacionales" data-lang-en="Conversational Systems">Sistemas Conversacionales</h3><p data-lang-es="Asistentes inteligentes que dialogan, entienden y resuelven necesidades en tus canales críticos." data-lang-en="Intelligent assistants that talk, understand, and solve needs on your critical channels.">Asistentes inteligentes que dialogan, entienden y resuelven necesidades en tus canales críticos.</p></div><img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?q=80&w=1200&auto=format&fit=crop" alt="Sistemas Conversacionales"></div>
+                        <div id="orquestacion-content" class="solution-content"><div class="text"><h3 data-lang-es="Orquestación de Procesos" data-lang-en="Process Orchestration">Orquestación de Procesos</h3><p data-lang-es="Conectamos tus aplicaciones (CRM, ERP) para que tu operación fluya sin fricción ni tareas manuales." data-lang-en="We connect your applications (CRM, ERP) so your operation flows without friction or manual tasks.">Conectamos tus aplicaciones (CRM, ERP) para que tu operación fluya sin fricción ni tareas manuales.</p></div><img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop" alt="Orquestación de Procesos"></div>
+                         <div id="analisis-content" class="solution-content"><div class="text"><h3 data-lang-es="Inteligencia Analítica" data-lang-en="Analytical Intelligence">Inteligencia Analítica</h3><p data-lang-es="Transformamos tus datos en visión de futuro con dashboards y sistemas de monitoreo predictivo." data-lang-en="We transform your data into a vision of the future with dashboards and predictive monitoring systems.">Transformamos tus datos en visión de futuro con dashboards y sistemas de monitoreo predictivo.</p></div><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" alt="Inteligencia Analítica"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="process" id="proceso">
+            <div class="container">
+                <h2 class="animated" data-lang-es="Nuestro Proceso: Colaboración y Resultados" data-lang-en="Our Process: Collaboration and Results">Nuestro Proceso: Colaboración y Resultados</h2>
+                <p class="section-subtitle animated delay-1" data-lang-es="Un método probado para garantizar que cada paso que damos juntos, cuente." data-lang-en="A proven method to ensure that every step we take together, counts.">Un método probado para garantizar que cada paso que damos juntos, cuente.</p>
+                <div class="process-grid">
+                    <div class="process-step animated delay-1"><div class="step-number">01</div><div><h3 data-lang-es="Diagnóstico" data-lang-en="Diagnosis">Diagnóstico</h3><p data-lang-es="Primero, escuchamos. Nos sumergimos en tu operación para entender tus desafíos y objetivos." data-lang-en="First, we listen. We dive deep into your operation to understand your challenges and goals.">Primero, escuchamos. Nos sumergimos en tu operación para entender tus desafíos y objetivos.</p></div></div>
+                    <div class="process-step animated delay-2"><div class="step-number">02</div><div><h3 data-lang-es="Arquitectura" data-lang-en="Architecture">Arquitectura</h3><p data-lang-es="Diseñamos un plan a medida. El blueprint de tu sistema para máxima eficiencia y escalabilidad." data-lang-en="We design a custom plan. The blueprint of your system for maximum efficiency and scalability.">Diseñamos un plan a medida. El blueprint de tu sistema para máxima eficiencia y escalabilidad.</p></div></div>
+                    <div class="process-step animated delay-3"><div class="step-number">03</div><div><h3 data-lang-es="Construcción" data-lang-en="Construction">Construcción</h3><p data-lang-es="Damos vida a la estrategia de forma ágil, con comunicación constante para que siempre estés al tanto." data-lang-en="We bring the strategy to life in an agile way, with constant communication so you are always in the loop.">Damos vida a la estrategia de forma ágil, con comunicación constante para que siempre estés al tanto.</p></div></div>
+                    <div class="process-step animated delay-3"><div class="step-number">04</div><div><h3 data-lang-es="Evolución" data-lang-en="Evolution">Evolución</h3><p data-lang-es="El lanzamiento es solo el principio. Optimizamos y expandimos el sistema a medida que tu negocio crece." data-lang-en="The launch is just the beginning. We optimize and expand the system as your business grows.">El lanzamiento es solo el principio. Optimizamos y expandimos el sistema a medida que tu negocio crece.</p></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cases" id="casos-exito">
+            <div class="container">
+                <h2 class="animated" data-lang-es="Resultados Reales, No Promesas Vagas" data-lang-en="Real Results, Not Vague Promises">Resultados Reales, No Promesas Vagas</h2>
+                <p class="section-subtitle animated delay-1" data-lang-es="Por confidencialidad, solo exponemos una selección de proyectos que ilustran nuestro impacto." data-lang-en="For confidentiality reasons, we only showcase a limited selection of projects that illustrate our impact.">Por confidencialidad, solo exponemos una selección de proyectos que ilustran nuestro impacto.</p>
+                <div class="case-studies-grid">
+                    <div class="case-study-card animated delay-1"><div class="icon"><i class="bi bi-bar-chart-line-fill"></i></div><h4 data-lang-es="Plataforma de Inteligencia Analítica" data-lang-en="Analytical Intelligence Platform">Plataforma de Inteligencia Analítica</h4><h3 data-lang-es="Del Caos a la Claridad Predictiva" data-lang-en="From Chaos to Predictive Clarity">Del Caos a la Claridad Predictiva</h3><p data-lang-es="Para una empresa con datos fragmentados, construimos un sistema que unificó sus fuentes de información, permitiendo decisiones basadas en predicciones." data-lang-en="For a company with fragmented data, we built a system that unified its information sources, enabling decisions based on predictions.">Para una empresa con datos fragmentados, construimos un sistema que unificó sus fuentes de información, permitiendo decisiones basadas en predicciones.</p></div>
+                    <div class="case-study-card animated delay-2"><div class="icon"><i class="bi bi-people-fill"></i></div><h4 data-lang-es="Sistema de Gestión de Interesados" data-lang-en="Stakeholder Management System">Sistema de Gestión de Interesados</h4><h3 data-lang-es="Automatización que Libera a tu Equipo" data-lang-en="Automation That Frees Your Team">Automatización que Libera a tu Equipo</h3><p data-lang-es="Implementamos un sistema conversacional que captura y cualifica interesados de forma autónoma, permitiendo que tu equipo comercial se enfoque en cerrar tratos." data-lang-en="We implemented a conversational system that captures and qualifies leads autonomously, allowing your sales team to focus on closing deals.">Implementamos un sistema conversacional que captura y cualifica interesados de forma autónoma, permitiendo que tu equipo comercial se enfoque en cerrar tratos.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="container contact-form-container">
+                <h2 class="animated" data-lang-es="¿Listo para tu Próximo Movimiento?" data-lang-en="Ready for Your Next Move?">¿Listo para tu Próximo Movimiento?</h2>
+                <p class="section-subtitle animated delay-1" data-lang-es="Hablemos. Una simple sesión puede ser el inicio de tu mayor ventaja competitiva." data-lang-en="Let's talk. A simple session can be the start of your greatest competitive advantage.">Hablemos. Una simple sesión puede ser el inicio de tu mayor ventaja competitiva.</p>
+                <form id="contact-form" class="animated delay-2">
+                    <div class="contact-form-grid">
+                        <div class="form-group"><label for="name" data-lang-es="Nombre Completo *" data-lang-en="Full Name *">Nombre Completo *</label><input type="text" name="name" id="name" required></div>
+                        <div class="form-group"><label for="company" data-lang-es="Empresa *" data-lang-en="Company *">Empresa *</label><input type="text" name="company" id="company" required></div>
+                        <div class="form-group"><label for="email" data-lang-es="Email Corporativo *" data-lang-en="Work Email *">Email Corporativo *</label><input type="email" name="email" id="email" required></div>
+                        <div class="form-group"><label for="phone" data-lang-es="Teléfono *" data-lang-en="Phone *">Teléfono *</label><input type="tel" name="phone" id="phone" required></div>
+                        <div class="form-group full-width"><label for="message" data-lang-es="¿Hay algo más que debamos saber sobre tu proyecto?" data-lang-en="Is there anything else we should know about your project?">¿Hay algo más que debamos saber sobre tu proyecto?</label><textarea name="message" id="message"></textarea></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-button" data-lang-es="Enviar y Agendar Sesión" data-lang-en="Send & Schedule Session">Enviar y Agendar Sesión</button>
+                    <div id="form-status" class="form-status-message"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+             <div class="footer-grid">
+                <div class="footer-brand"><a href="#inicio" class="logo-link"><img src="https://res.cloudinary.com/dwqahfw5n/image/upload/v1755999742/solo_drcadl.png" alt="MarpiCorp Logo" class="logo-img"><span>MarpiCorp</span></a></div>
+                <div class="footer-links"><h4 data-lang-es="Menú" data-lang-en="Menu">Menú</h4><ul><li><a href="#soluciones" data-lang-es="Soluciones" data-lang-en="Solutions">Soluciones</a></li><li><a href="#proceso" data-lang-es="Proceso" data-lang-en="Process">Proceso</a></li><li><a href="#casos-exito" data-lang-es="Casos de Éxito" data-lang-en="Case Studies">Casos de Éxito</a></li></ul></div>
+                <div class="footer-links"><h4>Legal</h4><ul><li><a href="#" data-lang-es="Privacidad" data-lang-en="Privacy">Privacidad</a></li><li><a href="#" data-lang-es="Términos" data-lang-en="Terms">Términos</a></li></ul></div>
+            </div>
+            <div class="footer-bottom"><p data-lang-es="© 2025 MarpiCorp. Todos los derechos reservados." data-lang-en="© 2025 MarpiCorp. All rights reserved.">© 2025 MarpiCorp. Todos los derechos reservados.</p></div>
+        </div>
+    </footer>
+    
+    <div id="proposal-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header"><h3 data-lang-es="Acceder a Propuesta" data-lang-en="Access Proposal">Acceder a Propuesta</h3><button id="close-proposal-modal" class="close-btn">&times;</button></div>
+            <div class="form-group"><label for="proposal-code" data-lang-es="Introduce tu código de acceso:" data-lang-en="Enter your access code:">Introduce tu código de acceso:</label><input type="text" id="proposal-code" data-lang-es-placeholder="Ej: ANA-2025" data-lang-en-placeholder="Ex: ANA-2025" placeholder="Ej: ANA-2025"><p id="proposal-error"></p></div>
+            <button id="submit-proposal-code" class="btn btn-primary" style="width: 100%;" data-lang-es="Ver Propuesta" data-lang-en="View Proposal">Ver Propuesta</button>
+        </div>
+    </div>
+
+    <!-- Enlace a tu archivo JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
