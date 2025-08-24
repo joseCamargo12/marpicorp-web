@@ -19,28 +19,57 @@
 </head>
 <body>
     
-    <header class="header" id="main-header">
-        <div class="container header-container">
-            <a href="#inicio" class="logo-link" aria-label="Inicio">
-                <img src="https://res.cloudinary.com/dwqahfw5n/image/upload/v1755999742/solo_drcadl.png" alt="MarpiCorp Logo" class="logo-img">
-                <span>MarpiCorp</span>
-            </a>
-            <nav class="nav-desktop">
-                <a href="#soluciones" data-lang-es="Soluciones" data-lang-en="Solutions">Soluciones</a>
-                <a href="#proceso" data-lang-es="Proceso" data-lang-en="Process">Proceso</a>
-                <a href="#casos-exito" data-lang-es="Casos de Éxito" data-lang-en="Case Studies">Casos de Éxito</a>
-                <a href="#" class="open-proposal-modal" data-lang-es="Ver Propuesta" data-lang-en="View Proposal">Ver Propuesta</a>
-            </nav>
-            <div class="header-buttons">
-                <div class="lang-switcher">
-                    <button class="lang-btn active" data-lang="es">ES</button>
-                    <button class="lang-btn" data-lang="en">EN</button>
-                </div>
-                <a href="#contacto" class="btn btn-primary hidden-mobile" data-lang-es="Agendar Sesión" data-lang-en="Schedule Session">Agendar Sesión</a>
-                <button id="mobile-menu-button" class="mobile-menu-toggle"><i class="bi bi-list"></i></button>
+<!-- ===== HEADER Y MENÚ MÓVIL (REDiseñado) ===== -->
+<header class="header" id="main-header">
+    <div class="container header-container">
+        <a href="#inicio" class="logo-link" aria-label="Inicio">
+            <img src="https://res.cloudinary.com/dwqahfw5n/image/upload/v1755999742/solo_drcadl.png" alt="MarpiCorp Logo" class="logo-img">
+            <span>MarpiCorp</span>
+        </a>
+        <nav class="nav-desktop">
+            <a href="#soluciones" data-lang-es="Soluciones" data-lang-en="Solutions">Soluciones</a>
+            <a href="#proceso" data-lang-es="Proceso" data-lang-en="Process">Proceso</a>
+            <a href="#casos-exito" data-lang-es="Casos de Éxito" data-lang-en="Case Studies">Casos de Éxito</a>
+            <a href="#" class="open-proposal-modal" data-lang-es="Ver Propuesta" data-lang-en="View Proposal">Ver Propuesta</a>
+        </nav>
+        <div class="header-buttons">
+            <div class="lang-switcher hidden-mobile">
+                <button class="lang-btn active" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="en">EN</button>
             </div>
+            <a href="#contacto" class="btn btn-primary hidden-mobile" data-lang-es="Agendar Sesión" data-lang-en="Schedule Session">Agendar Sesión</a>
+            <button id="mobile-menu-button" class="mobile-menu-toggle">
+                <i class="bi bi-list"></i>
+            </button>
         </div>
-    </header>
+    </div>
+</header>
+
+<!-- Menú Móvil Rediseñado -->
+<div id="mobile-menu" class="mobile-menu">
+    <div class="mobile-menu-header">
+        <a href="#inicio" class="logo-link" aria-label="Inicio">
+            <img src="https://res.cloudinary.com/dwqahfw5n/image/upload/v1755999742/solo_drcadl.png" alt="MarpiCorp Logo" class="logo-img">
+            <span>MarpiCorp</span>
+        </a>
+        <div class="header-buttons">
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+            <button id="mobile-menu-close-button" class="mobile-menu-toggle">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+    </div>
+    <nav class="mobile-menu-nav">
+        <a href="#soluciones" data-lang-es="Soluciones" data-lang-en="Solutions">Soluciones</a>
+        <a href="#proceso" data-lang-es="Proceso" data-lang-en="Process">Proceso</a>
+        <a href="#casos-exito" data-lang-es="Casos de Éxito" data-lang-en="Case Studies">Casos de Éxito</a>
+        <a href="#" class="open-proposal-modal" data-lang-es="Ver Propuesta" data-lang-en="View Proposal">Ver Propuesta</a>
+        <a href="#contacto" class="btn btn-primary" data-lang-es="Agendar Sesión" data-lang-en="Schedule Session">Agendar Sesión</a>
+    </nav>
+</div>
 
     <div id="mobile-menu" class="mobile-menu">
         <nav>
